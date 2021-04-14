@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import sys
-sys.path.append('/home/remi/Documents/ghub')
+#sys.path.append('/home/remi/Documents/ghub')
 from functions import *
 try:
     command = sys.argv[1]
