@@ -21,6 +21,12 @@ switcher = {
     "update": update,
     "run": run,
     "init": init,
+    "help": help
 }
 
-switcher.get(command, help)(command, value)
+try {
+    switcher.get(command, help)(command, value)
+} except {
+    print("This command is incorrect")
+    help(command, value)
+}
