@@ -1,7 +1,7 @@
 # Ghub
 This application allows you to make your life easier on ```git``` cli. It is easier to use the most used git commands. You can also create your own command with Ghub.json.
 
-# Usage
+## Usage
 To use this application you must downlaod ```git``` cli and this repository.
 To use ```ghub``` cli you must write on your terminal.
 ```
