@@ -67,8 +67,7 @@ python ghub.py run
 ```
 or you can always run this command :
 ```
-python ghub.py run un
-```
+python ghub.py run run
 ```
 ```
 {
