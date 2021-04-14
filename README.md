@@ -1,13 +1,14 @@
 # Ghub
+This application allows you to make your life easier on ```git``` cli. It is easier to use the most used git commands. You can also create your own command with Ghub.json.
 
-This application allows you to make your life easier on ```git``` cli.
+# Usage
 To use this application you must downlaod ```git``` cli and this repository.
 To use ```ghub``` cli you must write on your terminal.
 ```
 python /path/to/your/ghub/repository/ghub.py <command> [args]
 ```
 
-## Commands:
+## Commands
 
 - Clone repository from git server (for exemple Github)
 ```
