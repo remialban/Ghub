@@ -24,7 +24,7 @@ def create_json_file(name="my-project", path=""):
     fichier.close()
 
 def help(command, value):
-    print("erreur")
+    print("Error")
 
 def new(command, value):
     if(len(value) == 2):
@@ -34,7 +34,7 @@ def new(command, value):
         url = value[0]
         name = "my-project"
     else:
-        print("Erreur")
+        print("Error")
         exit()
     os.system("git clone " + url + " " + name)
     create_json_file(name, name + "/")
@@ -43,10 +43,10 @@ def remove(command, value):
     if(is_ghub_project(value[0] + "/")):
         shutil.rmtree(value[0])
     else:
-        print("This directory does not exist or this directory is not a git project")
+        print("This directory does not exist or this directory is not a ghub project.\nTo init a ghub project you muse use this command : ghub init")
 
 def push(command, value):
-    message = "Add"
+    message = "Add file via upload"
     if(len(value) == 1):
         message = value[0]
     print(message)
