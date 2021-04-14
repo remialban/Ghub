@@ -68,12 +68,17 @@ def run(command, value):
     except:
         print("You haven't commands in your ghub.json")
         exit()
-    
     try:
-        command = commands.get(value[0])
+        command_name = value[0]
+    except:
+        command_name = "run"
+    try:
+        command = commands.get(command_name)
     except:
         print("The \""+value[0]+"\" doesn't exist. You can add a \"" + value[0] + "\" command in your ghub.json file.")
-    os.system(tab.get("commands").get(value[0]))
+        exit()
+    
+    os.system(command)
 
 def init(command, value):
     create_json_file(os.path.basename(os.getcwd()))
