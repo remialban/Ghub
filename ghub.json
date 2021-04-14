@@ -1,0 +1,6 @@
+{
+    "name": "ghub",
+    "commands": {
+        "test": "echo Hello world !"
+    }
+}
