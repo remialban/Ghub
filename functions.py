@@ -11,7 +11,7 @@ def create_json_file(name="my-project", path=""):
     
     if(os.path.exists(path + "ghub.json")):
         print("You have already a ghub.json file")
-        exit()
+        return True
     fichier = open(path + "ghub.json", "x")
     ghub = {
         "name": name,

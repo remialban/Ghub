@@ -1,5 +1,5 @@
 {
-    "name": "ghub",
+    "name": "Ghub",
     "commands": {
         "test": "echo Hello world !"
     }

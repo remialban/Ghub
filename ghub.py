@@ -24,9 +24,8 @@ switcher = {
     "help": help
 }
 
-try {
-    switcher.get(command, help)(command, value)
-} except {
+try:
+    switcher.get(command)(command, value)
+except:
     print("This command is incorrect")
     help(command, value)
-}
