@@ -13,6 +13,10 @@ python /path/to/your/ghost/repository/ghost.py command [args]"
 ```
 python ghost.py new <url of respository>
 ```
+or 
+```
+python ghost.py new <project name> <url of respository>
+```
 - Commit and send the modification to server
 ```
 python ghost.py push <commit name>
